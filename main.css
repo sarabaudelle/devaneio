@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body,
 html {
     width: 100%;
@@ -10,8 +11,7 @@ html {
     margin: 0;
     background-color: #DAD6CB;
     color: #222;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 500;
+    font-family: Inter;
     font-style: normal;
 }
 
@@ -25,9 +25,20 @@ h2, h3, h4, h5, p {
     line-height: 32px;
 }
 
-@media only screen and (max-width: 800px) {
-    h1 {
-      font-size: 48px;
-      line-height: 64px;
-    }
-  }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    padding: 8px 12px; 
+    border: 0;
+}
+
+button {
+    background-color: #222;
+    padding: 8px 12px;
+    border: 0;
+    color: #DAD6CB;
+}
