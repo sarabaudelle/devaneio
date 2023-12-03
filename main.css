@@ -20,7 +20,7 @@ h1 {
     line-height: 80px;
 }
 
-h2, h3, h4, h5, p {
+h6 {
     font-size: 24px;
     line-height: 32px;
 }
@@ -41,4 +41,15 @@ button {
     padding: 8px 12px;
     border: 0;
     color: #DAD6CB;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo {
+    height: 32px;
 }
