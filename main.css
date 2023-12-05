@@ -15,41 +15,59 @@ html {
     font-style: normal;
 }
 
-h1 {
-    font-size: 64px;
-    line-height: 80px;
+.header, .footer {
+    padding: 24px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
-h6 {
-    font-size: 24px;
-    line-height: 32px;
+.header img {
+    height: 48px;
+}
+
+.subscribe {
+    height: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+    position: relative;
+}
+
+.img {
+    position: absolute; 
 }
 
 form {
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
 input {
-    padding: 8px 12px; 
+    padding: 12px; 
     border: 0;
+    font-size: 18px;
 }
 
 button {
     background-color: #222;
-    padding: 8px 12px;
+    padding: 12px; 
     border: 0;
     color: #DAD6CB;
+    font-size: 18px;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
+.button:hover {
+    background-color: #ddd;
 }
 
-.logo {
-    height: 32px;
-}
+
+
